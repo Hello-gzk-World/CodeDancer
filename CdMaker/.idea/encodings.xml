@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Detection/CalculateCycleAndLine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Detection/LanguageInformation.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Detection/Launch.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Detection/PlagiarismDetection.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Detection/SourcePrograme.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/Agrim.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/BTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/Fileclear.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/Filecopy.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/RecommandInterface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/SortingIndex.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/judge.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/Maxtree/recommand.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/com/metrics/halstead/ASTVisitorMod.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/com/metrics/halstead/App.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/codeMaker/java/com/metrics/halstead/HalsteadMetrics.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/startMaker/startDialog.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

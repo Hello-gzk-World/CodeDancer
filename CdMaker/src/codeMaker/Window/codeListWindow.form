@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="codeMaker.Window.codeListWindow">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+    <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:d:grow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <colspec value="fill:max(d;4px):noGrow"/>
+    <colspec value="left:4dlu:noGrow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="8a59e" class="javax.swing.JLabel" binding="titile_label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="方法名   方法类型   语言java"/>
+        </properties>
+      </component>
+      <scrollpane id="dccb2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="b536a" binding="codeList_panel" layout-manager="FormLayout">
+            <rowspec value="center:d:noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:max(d;4px):noGrow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:d:grow"/>
+            <constraints/>
+            <properties/>
+            <border type="none">
+              <title-color color="-4473925"/>
+            </border>
+            <children>
+              <scrollpane id="fc08e">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+              <scrollpane id="bc7ca">
+                <constraints>
+                  <grid row="24" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="90969" class="javax.swing.JTextArea" binding="sixth_codeArea">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font name="JetBrains Mono"/>
+                      <lineWrap value="true"/>
+                      <rows value="10"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="b984f">
+                <constraints>
+                  <grid row="16" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="d9b2" class="javax.swing.JTextArea" binding="forth_codeArea">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font name="JetBrains Mono"/>
+                      <lineWrap value="true"/>
+                      <rows value="10"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="8dfea">
+                <constraints>
+                  <grid row="12" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7c732" class="javax.swing.JTextArea" binding="third_codeArea">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font name="JetBrains Mono"/>
+                      <lineWrap value="true"/>
+                      <rows value="10"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <scrollpane id="9e17a">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="5ee3a" class="javax.swing.JTextArea" binding="second_codeArea">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font name="JetBrains Mono"/>
+                      <lineWrap value="true"/>
+                      <rows value="10"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="fb970" class="javax.swing.JButton" binding="third_button">
+                <constraints>
+                  <grid row="10" column="8" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/Copy.png"/>
+                  <text value="复制"/>
+                </properties>
+              </component>
+              <component id="8e63e" class="javax.swing.JButton" binding="forth_button">
+                <constraints>
+                  <grid row="14" column="6" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <horizontalAlignment value="0"/>
+                  <icon value="Img/Copy.png"/>
+                  <text value="复制"/>
+                </properties>
+              </component>
+              <component id="7931e" class="javax.swing.JButton" binding="fifth_button">
+                <constraints>
+                  <grid row="18" column="4" row-span="1" col-span="9" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/Copy.png"/>
+                  <text value="复制"/>
+                </properties>
+              </component>
+              <component id="9f027" class="javax.swing.JButton" binding="second_button">
+                <constraints>
+                  <grid row="6" column="10" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/Copy.png"/>
+                  <text value="复制"/>
+                </properties>
+              </component>
+              <scrollpane id="796a0">
+                <constraints>
+                  <grid row="20" column="0" row-span="1" col-span="13" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="106f" class="javax.swing.JTextArea" binding="fifth_codeArea">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                      <font name="JetBrains Mono"/>
+                      <rows value="10"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+              <component id="90213" class="javax.swing.JButton" binding="sixth_button">
+                <constraints>
+                  <grid row="22" column="2" row-span="1" col-span="11" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/Copy.png"/>
+                  <text value="复制"/>
+                </properties>
+              </component>
+              <component id="41f8a" class="javax.swing.JButton" binding="first_button">
+                <constraints>
+                  <grid row="2" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/Copy.png"/>
+                  <text value="复制"/>
+                </properties>
+              </component>
+              <component id="6c885" class="javax.swing.JTextArea" binding="first_codeArea">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="13" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <editable value="false"/>
+                  <font name="JetBrains Mono"/>
+                  <lineWrap value="false"/>
+                  <rows value="10"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b81dc" class="javax.swing.JLabel" binding="first_label">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <icon value="Img/1.png"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="2daa1" class="javax.swing.JLabel" binding="second_label">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/2.png"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="5afca" class="javax.swing.JLabel" binding="third_label">
+                <constraints>
+                  <grid row="10" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/3.png"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="7476b" class="javax.swing.JLabel" binding="forth_label">
+                <constraints>
+                  <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/4.png"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="d6f67" class="javax.swing.JLabel" binding="fifth_label">
+                <constraints>
+                  <grid row="18" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <icon value="Img/5.png"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="5a7d3" class="javax.swing.JLabel" binding="sixth_label">
+                <constraints>
+                  <grid row="22" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font style="1"/>
+                  <icon value="Img/6.png"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </scrollpane>
+      <component id="d8388" class="javax.swing.JButton" binding="close_button">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <font name="Droid Sans Mono" style="1"/>
+          <text value="code recommend"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

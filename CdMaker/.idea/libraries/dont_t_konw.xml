@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="dont't konw">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resources/jar package/commons-codec-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.core.commands-3.9.800.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.core.contenttype-3.7.800.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.core.expressions-3.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.core.filesystem-1.7.700.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.core.jobs-3.10.1000.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.core.resources-3.13.900.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.equinox.registry-3.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/resources/jar package/org.eclipse.text-3.10.400.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

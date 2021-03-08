@@ -1,0 +1,41 @@
+<idea-plugin>
+  <id>com.GMZ.NJU.unique.codedance.id</id>
+  <name>MdMaker</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="NoteListWindow" icon="/Img/note.svg" anchor="right" factoryClass="mdMaker.Window.NoteListWindow.NoteListWindowFactory"/>
+    <toolWindow id="codeListWindow"  anchor="right" factoryClass="codeMaker.Window.codeListWindowFactory"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="MB_PopupAction" class="mdMaker.Action.notePopupAction" text="添加笔记" description="添加笔记子菜单">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+      <action id="codePopupAction_ID" class="codeMaker.Action.codePopupAction" text="code recommend"
+              description="推荐具有相同类型的代码">
+          <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      </action>
+  </actions>
+
+</idea-plugin>
